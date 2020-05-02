@@ -1,0 +1,69 @@
+
+body{
+margin: 0;
+padding: 0;
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(235, 237, 245);
+background-color: rgba(36, 37, 33, 0.822);
+}
+
+.estrutura{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 530px;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.479);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0,.5);   
+    border-radius: 15px;
+}
+.estrutura h2{
+margin:0 0 30px ;
+padding: 0;
+color: #e2e4f1;
+text-align: center;
+}
+
+.estrutura .dados {
+    position: relative;
+    }
+
+    .estrutura .dados input{
+        width: 100%;
+        padding: 1px 0 ;
+        font-size: 16px;
+        color: #FFF;
+        letter-spacing: 1px;
+        margin-bottom: 25px;
+        border:none;
+        border-bottom: 2px solid #FFF;
+        outline:none;
+        background: transparent;
+    
+        }
+        
+        .estrutura .dados label{
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 10px 0;
+            color: #FFF;
+            pointer-events: none;
+            transition: .6s;
+        }
+         
+               
+        .estrutura input[type="submit"]{
+                background: transparent;
+                border: none;
+                outline: none;
+                color: #FFF;
+                background: #6f7077;
+                padding: 8px 30px;
+                cursor: pointer;
+                border-radius: 5px;
+        }
